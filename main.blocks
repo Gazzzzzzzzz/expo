@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="makerbit_lcd_makecharacter" id="GMci(ep#/)f:TP/r0MA~" disabled="true" x="-196" y="-411"><field name="char">LcdChar.c1</field><value name="im"><block type="makerbit_lcd_characterpixels" id="YKd;l$Wk9?Ozn@^VWViL" disabled="true"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><next><block type="makerbit_lcd_showchararacter1602" id="Fo,oS7+Oj]fN.CXFOokQ" disabled="true"><field name="char">LcdChar.c1</field><value name="position"><shadow type="makerbit_lcd_position_1602" id="S2%j.w9C$6SSb/?0}8w!" disabled="true"><field name="pos">LcdPosition1602.Pos1</field></shadow></value></block></next></block><block type="every_interval" id="!7u_zWYuWtSz,zy.@d}n" x="0" y="0"><value name="interval"><shadow type="longTimePicker" id="y`K/Q!gO5aJ`p`nIv:U#"><field name="ms">60000</field></shadow></value><statement name="HANDLER"><block type="makerbit_lcd_clear_1602" id="MZEpu_/;K~HOYsT?atlO"><next><block type="makerbit_lcd_show_string_on_1602" id="vMk[jI)Hjey~vxXijv7S"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="option">TextOption.AlignLeft</field><value name="text"><shadow type="text" id="sa_Po8w2gdN#OqC`3n{}"><field name="TEXT">staff</field></shadow></value><value name="startPosition"><shadow type="makerbit_lcd_position_1602" id="Sk[!Zu|Pd{RYP^BoMUMV"><field name="pos">LcdPosition1602.Pos1</field></shadow></value><value name="length"><shadow type="math_number_minmax" id="a928gt?7KUm==n*]X#aC"><mutation min="1" max="32" label="Length" precision="1"></mutation><field name="SLIDER">5</field></shadow></value><next><block type="makerbit_lcd_makecharacter" id="I3(T:e#K*,GmJ:T(WB(M"><field name="char">LcdChar.c1</field><value name="im"><block type="makerbit_lcd_characterpixels" id="~FNVco8jpVFL:/$6)ZXv"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value></block></next></block></next></block></statement></block><block type="device_button_event" id="D,4LG2]xKagpl{lMbM1e" x="535" y="12"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="makerbit_lcd_clear_1602" id="3U[nHjU`(X8C!z0p:Z@g"><next><block type="makerbit_lcd_makecharacter" id="%?^#X++0O*=L~WO(yo9J"><field name="char">LcdChar.c1</field><value name="im"><block type="makerbit_lcd_characterpixels" id="t$UFt2l)IhsZiW^[!l/1"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        # . . . .
+        `</field></block></value><next><block type="makerbit_lcd_makecharacter" id=".2FF-YQ{j0(-2,tyD]%R"><field name="char">LcdChar.c2</field><value name="im"><block type="makerbit_lcd_characterpixels" id="{gKjWCEhPlTRA~;AYP#D"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value></block></next></block></next></block></statement></block><block type="every_interval" id="v8k1#dLbgNtjv.eT,PQ_" x="-232" y="212"><value name="interval"><shadow type="longTimePicker" id="l-s_QMSqkY7^}uBLuGc)"><field name="ms">120000</field></shadow></value><statement name="HANDLER"><block type="device_show_leds" id="[*;.j$8#6.9PVa4{Gj(r"><field name="LEDS">`
+        . # # # . 
+        # # # # # 
+        . . . . . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="makerbit_lcd_clear_1602" id="SX1(REBN]6}[=i]2pt@@"><next><block type="makerbit_lcd_show_string_on_1602" id="OR!Yt#mX1S7gb:#A5##W"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="option">TextOption.AlignLeft</field><value name="text"><shadow type="text" id="Qk*.j;vu[K:J$qYM|I#Q"><field name="TEXT">Ask me for help</field></shadow></value><value name="startPosition"><shadow type="makerbit_lcd_position_1602" id="MrzNox@lP!jq{a7t3WY$"><field name="pos">LcdPosition1602.Pos1</field></shadow></value><value name="length"><shadow type="math_number_minmax" id="^D?7uv2mG?6bAiIi9ND2"><mutation min="1" max="32" label="Number" precision="0"></mutation><field name="SLIDER">15</field></shadow></value><next><block type="makerbit_lcd_show_string_on_1602" id=".u-h(p:2Z2(Hvt/7KUq("><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="option">TextOption.AlignLeft</field><value name="text"><shadow type="text" id="XMZzzj`wv3KSB9OFLHTt"><field name="TEXT">welcome to Expo!</field></shadow></value><value name="startPosition"><shadow type="makerbit_lcd_position_1602" id="=kZnYECa5)wCT2;{YMw*"><field name="pos">LcdPosition1602.Pos17</field></shadow></value><value name="length"><shadow type="math_number_minmax" id="^Ea+.dA{r``coaW+IVR4"><mutation min="1" max="32" label="Number" precision="0"></mutation><field name="SLIDER">16</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
